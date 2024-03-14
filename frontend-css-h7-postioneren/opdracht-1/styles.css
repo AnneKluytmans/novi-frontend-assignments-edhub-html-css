@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* Kleuren: #F7F7F7 en #d3d3d3*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.recipe {
+    border: 3px solid #d3d3d3;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);;
+    margin: 80px auto;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.favorite-icon {
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.recipe-image {
+    width: 100%;
+}
+
+.recipe-details {
+    background-color: #F7F7F7;
+    padding-block: 5px;
+    margin-top: -7px;
+}
+
+/*alle items worden hetzelfde bewerkt, dus geen aparte class-name*/
+.recipe-detail-item {
+    font-size: 14px;
+    margin-inline: 8px; /*waarom werkt normale margin niet?*/
+}
+
+.detail-icon {
+    /*hier gebruiken je height in plaats van width, omdat de verschillende icoontjes andere vormen hebben en zo meer gelijk blijven*/
+    height: 18px;
+    margin-inline: 5px; /*waarom werkt normale margin niet?*/
+}
+
+.recipe-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+
